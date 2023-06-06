@@ -25,8 +25,8 @@
 - open the folder in Jupyter notebook using `jupyter notebook` command and navigate to the file with code named `demosaicing.ipynb`
 - start the code
 
-To install packages manually:
-- run `conda install python pytorch scipy matplotlib scikit-image jupyter pillow pip cudatoolkit torchvision`
+To install packages manually, run:
+- `conda install python pytorch scipy matplotlib scikit-image jupyter pillow pip cudatoolkit torchvision`
 - `conda install -c nvidia cuda`
 - `conda install -c nvidia cuda-nvrtc`
 - `conda install -c nvidia cuda-nvcc`
