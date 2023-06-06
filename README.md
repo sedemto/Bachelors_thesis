@@ -1,6 +1,6 @@
 # Bachelors_thesis - **RAW image debayerization using deep neural network**
 
-## This zip file contains multiple folders:
+## This page contains multiple folders:
 - **bilinear_result_imgs** = this folder contains the result images obtained using the bilinear interpolation
 - **malvar_result_imgs** = this folder contains the result images obtained using the Malvar's method
 - **matlab_result_imgs** = this folder contains the result images obtained using the `demosaic` function in Matlab
