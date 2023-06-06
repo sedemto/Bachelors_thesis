@@ -25,6 +25,6 @@
 - open the folder in Jupyter notebook using `jupyter notebook` command and navigate to the file with code named `demosaicing.ipynb`
 - start the code
 
-notes:
+Notes:
 - the GPU port needs to be set to the port of the GPU you want to use for computation (default 0)
 - if you do not have a GPU or have a slow GPU, the parameter `dtype` can be changed to perform the code using your CPU
