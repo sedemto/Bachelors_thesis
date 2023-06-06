@@ -20,11 +20,11 @@
 
 ## Tutorial to start the code in folder **deep_image_prior_all**:
 - to start the code Python and Anaconda need to be installed
-- open Anaconda Prompt and create a conda environment using the `environment.yml` file located in the folder -> `conda env create -f environment.yml`
+- open Anaconda Prompt and create a conda environment using the `environment.yml` file located in the folder -> `conda env create -f environment.yml` (or install the packages from it manually)
 - activate the environment using `conda activate dip`
 - open the folder in Jupyter notebook using `jupyter notebook` command and navigate to the file with code named `demosaicing.ipynb`
 - start the code
 
-notes:
+Notes:
 - the GPU port needs to be set to the port of the GPU you want to use for computation (default 0)
 - if you do not have a GPU or have a slow GPU, the parameter `dtype` can be changed to perform the code using your CPU
