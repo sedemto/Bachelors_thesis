@@ -25,6 +25,13 @@
 - open the folder in Jupyter notebook using `jupyter notebook` command and navigate to the file with code named `demosaicing.ipynb`
 - start the code
 
+To install packages manually:
+- run `conda install python pytorch scipy matplotlib scikit-image jupyter pillow pip cudatoolkit torchvision`
+- `conda install -c nvidia cuda`
+- `conda install -c nvidia cuda-nvrtc`
+- `conda install -c nvidia cuda-nvcc`
+- `conda istall pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia`
 Notes:
 - the GPU port needs to be set to the port of the GPU you want to use for computation (default 0)
 - if you do not have a GPU or have a slow GPU, the parameter `dtype` can be changed to perform the code using your CPU
+
